@@ -1,0 +1,30 @@
+# ---- Java / Spring Boot ----
+target/
+*.log
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+# IntelliJ
+.idea/
+*.iml
+# Maven/Gradle
+.mvn/
+!**/.mvn/wrapper/maven-wrapper.jar
+.gradle/
+build/
+
+# ---- Node / React ----
+Frontend/node_modules/
+Frontend/build/
+Frontend/dist/
+Frontend/.env.local
+Frontend/.next/
+Frontend/.vercel/
+# VS Code
+.vscode/
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
